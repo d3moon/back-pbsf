@@ -74,7 +74,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
-    'https://front-pbsf.vercel.app'
+    'https://front-pbsf.vercel.app',
+    'https://front-vue-pbsf.vercel.app/'
 ]
 
 ROOT_URLCONF = 'setup.urls'
